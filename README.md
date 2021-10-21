@@ -8,8 +8,8 @@ A python/selenium scraper for Adobe Stock Image thumbnails I quickly made for an
 * Install [Google Chrome](https://www.google.com/intl/fr_fr/chrome/).
 
 * Download the correct [chromedriver](https://chromedriver.chromium.org/downloads) for your OS and Chrome version.
-* Install selenium `pip install selenium`.
-* Install beautiful soup `pip install beautifulsoup4`.
+* Install selenium (command `pip install selenium`).
+* Install beautiful soup (command `pip install beautifulsoup4`).
 * Find the url on [Adobe Stock](https://stock.adobe.com/ch_fr/) containing the images you want, by making a search request by example.
 
 ## How to use
