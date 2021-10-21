@@ -15,7 +15,7 @@ A python/selenium scrapper for Adobe Stock Image thumbnails I quickly made for a
 ## How to use
 You must first configure the script under the `# Script params` comment:
 * The path to your chromedriver in `DRIVER_PATH`.
-* The path to the directory where images will be stored in `scrape_directory`(the script will try to create one if it doesn't exist).
+* The path to the directory where images will be stored in `output_dir`, the script will try to create one if it doesn't exist).
 * The url that will be used to scrap images in `base_url`.
 * The maximum number of pages to go through in `page_max` (for the [example url](https://stock.adobe.com/fr/collections/Pnb3vT0akesPgEDqaqSlBRifOFBa3LoJ) I set up there is a maximum of 4 pages as displayed at the bottom, you might want less than the maximum though).
 * (optionnal) the starting page (default is the first one) in `page_start` (in case you want to start at a given page or if you had to interrupt the script and don't want to start from the beginning).
