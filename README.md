@@ -1,6 +1,6 @@
-# Adobe Soock Scrapper
+# Adobe Soock Scraper
 
-A python/selenium scrapper for Adobe Stock Image thumbnails I quickly made for an IA project I have.
+A python/selenium scraper for Adobe Stock Image thumbnails I quickly made for an IA project I have.
 
 ## Pre-requisite
 (Just in case)
@@ -22,7 +22,7 @@ You must first configure the script under the `# Script params` comment:
 
 Once the configuration is done you just need to launch the script:
 * Open a shell in the directory containing the script
-* Use the command `python scrapper.py`
+* Use the command `python scraper.py`
 
 The selenium chrome should launch and do his thing.
 
